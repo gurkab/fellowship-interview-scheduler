@@ -167,5 +167,9 @@ public class DateAssigner {
         } catch (JsonProcessingException exception) {
             System.out.println(exception.getMessage());
         }
+        programs
+            .stream()
+            .filter(program -> program.getAssignedDate() == null)
+            .forEach(program -> System.out.println(program.getProgramName() + " has no assigned date"));
     }
 }

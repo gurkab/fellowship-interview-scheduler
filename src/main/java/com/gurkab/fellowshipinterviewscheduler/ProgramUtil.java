@@ -14,8 +14,8 @@ public class ProgramUtil {
     public static List<Program> buildProgramsFromResource(String resourceName) {
         List<Program> programs = new ArrayList<>();
         try (
-                InputStream is = ProgramUtil.class.getClassLoader().getResourceAsStream(resourceName);
-                BufferedReader reader = new BufferedReader(new InputStreamReader(is, StandardCharsets.UTF_8))
+            InputStream is = ProgramUtil.class.getClassLoader().getResourceAsStream(resourceName);
+            BufferedReader reader = new BufferedReader(new InputStreamReader(is, StandardCharsets.UTF_8))
         ) {
             // Read all lines from the resource
             List<String> lines = reader.lines().toList();

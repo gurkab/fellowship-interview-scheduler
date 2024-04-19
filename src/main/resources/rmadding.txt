@@ -1,7 +1,7 @@
 Stanford|2024-07-15,2024-07-29
 Massachusetts General Hospital|2024-07-10,2024-08-01
 Brown|2024-07-19,2024-07-26
-Johns Hopkins|2024-06-12,2024-07-17
+Johns Hopkins|2024-07-17
 Case Western|2024-08-05,2024-08-09
 USC|2024-08-23,2024-08-30
 University of Chicago|2024-07-12,2024-07-19,2024-08-09,2024-08-23
@@ -14,9 +14,8 @@ University of Michigan|2024-07-15,2024-07-19
 University of Washington|2024-07-26,2024-07-31
 Cedars-Sinai|2024-07-24,2024-07-31
 UC Irvine|2024-08-09,2024-08-14
-University of Texas - Houston|2024-06-14,2024-07-12,2024-07-19
+University of Texas - Houston|2024-07-12,2024-07-19
 Duke|2024-07-10,2024-07-24
 Yale|2024-07-17,2024-07-24,2024-08-07
 Wisconsin Madison|2024-07-11,2024-07-18
-University of Pittsburgh|2024-07-12,2024-07-19,2024-07-26
 Tufts|2024-07-22,2024-08-26
