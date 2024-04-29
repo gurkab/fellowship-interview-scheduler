@@ -7,16 +7,7 @@ import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
 import com.fasterxml.jackson.datatype.jsr310.ser.LocalDateSerializer;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Map;
-import java.util.Queue;
-import java.util.Set;
+import java.util.*;
 
 public class DateAssigner {
 
@@ -48,6 +39,9 @@ public class DateAssigner {
 
     // Method to construct the graph and solve the matching problem
     public void assignDates(List<Program> programs) {
+        // Build and print a 'date to program map' to show all available dates
+        printDateToProgramMap(buildDateToProgramMap(programs));
+
         int programIndexStart = 1; // Assuming 0 is the source node index
         int dateIndex = programIndexStart + programs.size(); // Dates start after all programs
         int source = 0;
@@ -171,5 +165,24 @@ public class DateAssigner {
             .stream()
             .filter(program -> program.getAssignedDate() == null)
             .forEach(program -> System.out.println(program.getProgramName() + " has no assigned date"));
+    }
+
+    private Map<LocalDate, List<String>> buildDateToProgramMap(List<Program> programs) {
+        Map<LocalDate, List<String>> dateToProgramMap = new TreeMap<>();
+        for (Program program : programs) {
+            List<LocalDate> availableDates = program.getAvailableDates();
+            for (LocalDate date : availableDates) {
+                dateToProgramMap.computeIfAbsent(date, k -> new ArrayList<>()).add(program.getProgramName());
+            }
+        }
+        return dateToProgramMap;
+    }
+
+    private void printDateToProgramMap(Map<LocalDate, List<String>> dateToProgramMap) {
+        try {
+            System.out.println(objectMapper.writeValueAsString(dateToProgramMap));
+        } catch (JsonProcessingException exception) {
+            System.out.println(exception.getMessage());
+        }
     }
 }
