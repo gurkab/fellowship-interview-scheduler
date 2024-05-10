@@ -156,6 +156,7 @@ public class DateAssigner {
     }
 
     private void printResults(List<Program> programs) {
+        System.out.println("Algorithm results:");
         try {
             System.out.println(objectMapper.writeValueAsString(programs));
         } catch (JsonProcessingException exception) {
@@ -179,6 +180,7 @@ public class DateAssigner {
     }
 
     private void printDateToProgramMap(Map<LocalDate, List<String>> dateToProgramMap) {
+        System.out.println("Date to programs:");
         try {
             System.out.println(objectMapper.writeValueAsString(dateToProgramMap));
         } catch (JsonProcessingException exception) {
