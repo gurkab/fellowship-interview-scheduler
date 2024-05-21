@@ -1,26 +1,31 @@
 Stanford|2024-07-15,2024-07-29
+Harvard|2024-07-15,2024-08-02
 Utah|2024-07-11,2024-07-17
 OHSU|2024-06-26,2024-07-01,2024-07-12
 UCSF|2024-07-16,2024-07-23,2024-07-30
 UC Davis|2024-07-31,2024-08-28
 Massachusetts General Hospital|2024-07-10,2024-08-01
+UNC Chapel Hill|2024-07-08,2024-07-15,2024-08-12
 UCLA|2024-08-22
 UC Irvine|2024-08-09,2024-08-14
-University of California at San Diego|2024-07-17,2024-08-07
+UCSD|2024-07-17,2024-08-07
 University of Chicago|2024-07-12,2024-07-19,2024-08-09,2024-08-23
-University of Michigan|2024-07-15,2024-07-19
+Michigan|2024-07-15,2024-07-19
 Brown|2024-07-19,2024-07-26
-Vermont|2024-06-26,2024-07-10,2024-08-07
+University of Vermont|2024-06-26,2024-07-10,2024-08-07
 University of Washington|2024-07-26,2024-07-31
+Tufts|2024-06-20,2024-07-29
 Wisconsin Madison|2024-07-11,2024-07-18
 Columbia|2024-07-09,2024-07-16,2024-07-30
+Cornell|2024-07-12,2024-07-19,2024-08-02
 USC|2024-08-23,2024-08-30
 Duke|2024-07-10,2024-07-24
 Colorado|2024-07-24,2024-07-31
 Mount Sinai|2024-07-10,2024-07-17,2024-07-24
-Northwestern|2024-07-10,2024-07-12,2024-07-17
-Johns Hopkins|2024-06-12,2024-07-17
+Northwestern University|2024-07-10,2024-07-12,2024-07-17
+John’s Hopkins University|2024-06-12,2024-07-17
+Cleveland Clinic|2024-07-19,2024-07-31,2024-08-07
 Case Western|2024-08-05,2024-08-09
-Medical College of Wisconsin|2024-08-07,2024-08-14,2024-08-21
-University of Texas - Southwestern|2024-06-21,2024-07-12,2024-08-09
-University of Texas - Houston|2024-06-14,2024-07-12,2024-07-19
+Wisconsin Milwaukee|2024-08-07,2024-08-14,2024-08-21
+University of Texas Southwestern|2024-06-21,2024-07-12,2024-08-09
+University of Texas Houston|2024-06-14,2024-07-12,2024-07-19
